@@ -1,0 +1,10 @@
+{
+  "mocha_tests": ["./tests"],
+  "framework": "magellan-nightwatch",
+  "no_tunnels": true,
+  "sauce": false,
+  "max_workers": 7,
+  "debug": true,
+  "selenium_port" : 4444,
+  "selenium_host" : "10.53.2.197"
+}

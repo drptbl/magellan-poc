@@ -1,0 +1,22 @@
+{
+  "name": "yg-e2e",
+  "version": "1.0.0",
+  "description": "YouGov E2E tests",
+  "main": "index.js",
+  "scripts": {
+    "test": "magellan",
+    "magellan:setup": "exit 0",
+    "magellan:teardown": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/drptbl/yg-e2e.git"
+  },
+  "author": "Jakub Mucha",
+  "license": "MIT",
+  "dependencies": {
+    "nightwatch": "0.7.11",
+    "testarmada-magellan": "1.6.4",
+    "testarmada-magellan-nightwatch": "1.5.1"
+  }
+}

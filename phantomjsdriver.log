@@ -1,0 +1,176 @@
+[INFO  - 2015-09-02T11:17:40.925Z] GhostDriver - Main - running on port 14287
+[INFO  - 2015-09-02T11:17:40.926Z] GhostDriver - Main - running on port 18055
+[INFO  - 2015-09-02T11:17:41.199Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T11:17:41.199Z] Session [39bd39b0-5164-11e5-b71b-a7df5a8d810f] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T11:17:41.199Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T11:17:41.199Z] Session [39bd39b0-5164-11e5-b71b-a7df5a8d810f] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T11:17:41.199Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T11:17:41.199Z] Session [39bd39b0-5164-11e5-b71b-a7df5a8d810f] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T11:17:41.199Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39bd39b0-5164-11e5-b23c-85ca0814a26e
+[INFO  - 2015-09-02T11:17:41.199Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 39bd39b0-5164-11e5-b71b-a7df5a8d810f
+[ERROR - 2015-09-02T11:17:43.037Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T11:17:43.038Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T11:17:43.058Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T11:17:43.058Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[ERROR - 2015-09-02T11:17:44.899Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T11:17:44.900Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T11:17:44.923Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T11:17:44.923Z] Session [39bd39b0-5164-11e5-b23c-85ca0814a26e] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[INFO  - 2015-09-02T11:17:45.776Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T11:17:47.233Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T19:57:20.717Z] GhostDriver - Main - running on port 5206
+[INFO  - 2015-09-02T19:57:20.717Z] GhostDriver - Main - running on port 36173
+[INFO  - 2015-09-02T19:57:20.838Z] Session [d240b930-51ac-11e5-8632-6b056bf02d3e] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T19:57:20.838Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T19:57:20.839Z] Session [d240b930-51ac-11e5-8632-6b056bf02d3e] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T19:57:20.839Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T19:57:20.839Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T19:57:20.839Z] Session [d240b930-51ac-11e5-8632-6b056bf02d3e] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T19:57:20.839Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d2409220-51ac-11e5-a565-d3ea79f21290
+[INFO  - 2015-09-02T19:57:20.839Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: d240b930-51ac-11e5-8632-6b056bf02d3e
+[ERROR - 2015-09-02T19:57:22.698Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T19:57:22.698Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T19:57:22.812Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T19:57:22.812Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[ERROR - 2015-09-02T19:57:25.044Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T19:57:25.044Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T19:57:25.058Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T19:57:25.059Z] Session [d2409220-51ac-11e5-a565-d3ea79f21290] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[INFO  - 2015-09-02T19:57:25.911Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T20:05:25.494Z] GhostDriver - Main - running on port 35010
+[INFO  - 2015-09-02T20:05:25.640Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T20:05:25.640Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T20:05:25.640Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T20:05:25.640Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f3377c40-51ad-11e5-b1f0-453e56882b1d
+[ERROR - 2015-09-02T20:05:27.546Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T20:05:27.546Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T20:05:27.641Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T20:05:27.641Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[ERROR - 2015-09-02T20:05:29.713Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T20:05:29.713Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T20:05:29.724Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T20:05:29.724Z] Session [f3377c40-51ad-11e5-b1f0-453e56882b1d] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[INFO  - 2015-09-02T20:05:30.691Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T20:05:35.569Z] GhostDriver - Main - running on port 3398
+[INFO  - 2015-09-02T20:05:35.731Z] Session [f93b6700-51ad-11e5-be81-95c8e45fddc8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T20:05:35.732Z] Session [f93b6700-51ad-11e5-be81-95c8e45fddc8] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T20:05:35.732Z] Session [f93b6700-51ad-11e5-be81-95c8e45fddc8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T20:05:35.732Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: f93b6700-51ad-11e5-be81-95c8e45fddc8
+[INFO  - 2015-09-02T20:07:20.405Z] GhostDriver - Main - running on port 28668
+[INFO  - 2015-09-02T20:07:20.405Z] GhostDriver - Main - running on port 38783
+[INFO  - 2015-09-02T20:07:20.551Z] Session [37b58330-51ae-11e5-ac60-6d92ad4e82da] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T20:07:20.551Z] Session [37b58330-51ae-11e5-ac60-6d92ad4e82da] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T20:07:20.551Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T20:07:20.551Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T20:07:20.551Z] Session [37b58330-51ae-11e5-ac60-6d92ad4e82da] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T20:07:20.551Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T20:07:20.551Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 37b58330-51ae-11e5-ac60-6d92ad4e82da
+[INFO  - 2015-09-02T20:07:20.551Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 37b58330-51ae-11e5-9c13-0b6282740dd2
+[ERROR - 2015-09-02T20:07:22.348Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T20:07:22.348Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T20:07:22.717Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T20:07:22.717Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[ERROR - 2015-09-02T20:07:24.725Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T20:07:24.725Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T20:07:24.736Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T20:07:24.737Z] Session [37b58330-51ae-11e5-9c13-0b6282740dd2] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[INFO  - 2015-09-02T20:07:25.600Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T20:07:32.672Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T20:24:12.512Z] GhostDriver - Main - running on port 20419
+[INFO  - 2015-09-02T20:24:12.512Z] GhostDriver - Main - running on port 41004
+[INFO  - 2015-09-02T20:24:12.646Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T20:24:12.646Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T20:24:12.646Z] Session [92f6f420-51b0-11e5-94d7-656bd49ef0a8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-02T20:24:12.646Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T20:24:12.646Z] Session [92f6f420-51b0-11e5-94d7-656bd49ef0a8] - page.customHeaders:  - {}
+[INFO  - 2015-09-02T20:24:12.646Z] Session [92f6f420-51b0-11e5-94d7-656bd49ef0a8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-02T20:24:12.646Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 92f6f420-51b0-11e5-a213-2188119723d8
+[INFO  - 2015-09-02T20:24:12.646Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 92f6f420-51b0-11e5-94d7-656bd49ef0a8
+[ERROR - 2015-09-02T20:24:14.507Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T20:24:14.507Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T20:24:14.919Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T20:24:14.919Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[ERROR - 2015-09-02T20:24:16.915Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-02T20:24:16.915Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-839820b25a65d14c34b3bba3c141cc4f0ccb09420e392bc9694fca32d00e34b1.js:1)
+[ERROR - 2015-09-02T20:24:16.926Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-02T20:24:16.926Z] Session [92f6f420-51b0-11e5-a213-2188119723d8] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-2a900a896c75854637bbe94bcc0823b69c31d14df4f4cfaf7821ec00be94ada3.js:1)
+[INFO  - 2015-09-02T20:24:18.312Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-02T20:24:22.520Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-04T14:59:03.996Z] GhostDriver - Main - running on port 3901
+[INFO  - 2015-09-04T14:59:03.996Z] GhostDriver - Main - running on port 42221
+[INFO  - 2015-09-04T14:59:03.996Z] GhostDriver - Main - running on port 30802
+[INFO  - 2015-09-04T14:59:04.295Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-04T14:59:04.295Z] Session [7be85330-5315-11e5-bd7d-011fecda00d8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-04T14:59:04.295Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.customHeaders:  - {}
+[INFO  - 2015-09-04T14:59:04.295Z] Session [7be85330-5315-11e5-bd7d-011fecda00d8] - page.customHeaders:  - {}
+[INFO  - 2015-09-04T14:59:04.295Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-04T14:59:04.295Z] Session [7be85330-5315-11e5-bd7d-011fecda00d8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-04T14:59:04.295Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7be85330-5315-11e5-bd7d-011fecda00d8
+[INFO  - 2015-09-04T14:59:04.295Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7be85330-5315-11e5-9eff-1713eb9f8876
+[INFO  - 2015-09-04T14:59:04.296Z] Session [7be87a40-5315-11e5-9e93-5d455e862425] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-04T14:59:04.296Z] Session [7be87a40-5315-11e5-9e93-5d455e862425] - page.customHeaders:  - {}
+[INFO  - 2015-09-04T14:59:04.297Z] Session [7be87a40-5315-11e5-9e93-5d455e862425] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-04T14:59:04.297Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 7be87a40-5315-11e5-9e93-5d455e862425
+[ERROR - 2015-09-04T14:59:06.590Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-04T14:59:06.590Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-06e65f5639cc52d1aaada53115a54614b60fa90ab446a673e3e1818df167663b.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-06e65f5639cc52d1aaada53115a54614b60fa90ab446a673e3e1818df167663b.js:1)
+[ERROR - 2015-09-04T14:59:07.723Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-04T14:59:07.723Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-ee4ac88329bd04835855a912ad24ec8d4d05dd40c4a271721d3c67827d1e0f75.js:1)
+[ERROR - 2015-09-04T14:59:08.970Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - msg: TypeError: 'undefined' is not a function (evaluating 'Array.prototype.forEach.call.bind(Array.prototype.forEach)')
+[ERROR - 2015-09-04T14:59:08.970Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-06e65f5639cc52d1aaada53115a54614b60fa90ab446a673e3e1818df167663b.js:1)
+  (anonymous function) (https://assets-cdn.github.com/assets/frameworks-06e65f5639cc52d1aaada53115a54614b60fa90ab446a673e3e1818df167663b.js:1)
+[ERROR - 2015-09-04T14:59:08.982Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - msg: ReferenceError: Can't find variable: jQuery
+[ERROR - 2015-09-04T14:59:08.982Z] Session [7be85330-5315-11e5-9eff-1713eb9f8876] - page.onError - stack:
+  (anonymous function) (https://assets-cdn.github.com/assets/github-ee4ac88329bd04835855a912ad24ec8d4d05dd40c4a271721d3c67827d1e0f75.js:1)
+[INFO  - 2015-09-04T14:59:09.840Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-04T14:59:57.646Z] GhostDriver - Main - running on port 3930
+[INFO  - 2015-09-04T14:59:57.772Z] Session [9bc84480-5315-11e5-9f7a-8d5311191697] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-04T14:59:57.772Z] Session [9bc84480-5315-11e5-9f7a-8d5311191697] - page.customHeaders:  - {}
+[INFO  - 2015-09-04T14:59:57.772Z] Session [9bc84480-5315-11e5-9f7a-8d5311191697] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-04T14:59:57.772Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 9bc84480-5315-11e5-9f7a-8d5311191697
+[INFO  - 2015-09-04T15:01:06.850Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-04T15:01:11.801Z] GhostDriver - Main - running on port 6978
+[INFO  - 2015-09-04T15:01:11.943Z] Session [c7fddd30-5315-11e5-b711-dbe0521cc8c8] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-04T15:01:11.943Z] Session [c7fddd30-5315-11e5-b711-dbe0521cc8c8] - page.customHeaders:  - {}
+[INFO  - 2015-09-04T15:01:11.943Z] Session [c7fddd30-5315-11e5-b711-dbe0521cc8c8] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-04T15:01:11.943Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: c7fddd30-5315-11e5-b711-dbe0521cc8c8
+[INFO  - 2015-09-04T15:02:50.104Z] ShutdownReqHand - _handle - About to shutdown
+[INFO  - 2015-09-04T15:02:55.060Z] GhostDriver - Main - running on port 25008
+[INFO  - 2015-09-04T15:02:55.187Z] Session [0587cd00-5316-11e5-9107-c36b4749eed7] - page.settings - {"XSSAuditingEnabled":false,"javascriptCanCloseWindows":true,"javascriptCanOpenWindows":true,"javascriptEnabled":true,"loadImages":true,"localToRemoteUrlAccessEnabled":false,"userAgent":"Mozilla/5.0 (Macintosh; Intel Mac OS X) AppleWebKit/534.34 (KHTML, like Gecko) PhantomJS/1.9.8 Safari/534.34","webSecurityEnabled":true}
+[INFO  - 2015-09-04T15:02:55.187Z] Session [0587cd00-5316-11e5-9107-c36b4749eed7] - page.customHeaders:  - {}
+[INFO  - 2015-09-04T15:02:55.188Z] Session [0587cd00-5316-11e5-9107-c36b4749eed7] - Session.negotiatedCapabilities - {"browserName":"phantomjs","version":"1.9.8","driverName":"ghostdriver","driverVersion":"1.1.0","platform":"mac-10.10 (Yosemite)-32bit","javascriptEnabled":true,"takesScreenshot":true,"handlesAlerts":false,"databaseEnabled":false,"locationContextEnabled":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"cssSelectorsEnabled":true,"webStorageEnabled":false,"rotatable":false,"acceptSslCerts":false,"nativeEvents":true,"proxy":{"proxyType":"direct"}}
+[INFO  - 2015-09-04T15:02:55.188Z] SessionManagerReqHand - _postNewSessionCommand - New Session Created: 0587cd00-5316-11e5-9107-c36b4749eed7
+[INFO  - 2015-09-04T15:04:08.432Z] ShutdownReqHand - _handle - About to shutdown

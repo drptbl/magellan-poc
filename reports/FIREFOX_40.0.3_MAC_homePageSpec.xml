@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="homePageSpec"
+    errors="0" failures="1" hostname="" id="" package="homePageSpec" skipped="0"
+    tests="2" time="14.38" timestamp="Wed, 02 Sep 2015 21:49:11 GMT">
+  
+    <testcase name="Homepage should render properly" time="6.062" assertions="0">
+    </testcase>
+  
+    <testcase name="Check product description" time="8.316" assertions="1">  <failure message="Selector &#39;[data-item-id=&#39;403453&#39;] .tile-heading&#39; was not visible after 8172 milliseconds.">Selector &#39;[data-item-id=&#39;403453&#39;] .tile-heading&#39; was not visible after 8172 milliseconds.: Expected &quot;visible&quot; but got: &quot;not visible&quot;
+    at F.CheckVisibleAndClick.fail (/Users/jm/WebstormProjects/magellanpoc/node_modules/testarmada-magellan-nightwatch/lib/commands/lib/checkVisibleAndClick.js:97:15)
+    at Object.&lt;anonymous&gt; (/Users/jm/WebstormProjects/magellanpoc/node_modules/testarmada-magellan-nightwatch/lib/commands/lib/checkVisibleAndClick.js:76:12)
+    at HttpRequest.&lt;anonymous&gt; (/Users/jm/WebstormProjects/magellanpoc/node_modules/nightwatch/lib/index.js:311:20)
+    at HttpRequest.emit (events.js:110:17)
+    at HttpRequest.&lt;anonymous&gt; (/Users/jm/WebstormProjects/magellanpoc/node_modules/nightwatch/lib/index.js:344:15)
+    at HttpRequest.emit (events.js:118:17)
+    at IncomingMessage.&lt;anonymous&gt; (/Users/jm/WebstormProjects/magellanpoc/node_modules/nightwatch/lib/http/request.js:150:16)
+    at IncomingMessage.emit (events.js:129:20)
+    at _stream_readable.js:908:16
+    at process._tickCallback (node.js:355:11)</failure>
+
+    
+    </testcase>
+  
+  
+  </testsuite>
+</testsuites>
